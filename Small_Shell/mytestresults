@@ -1,0 +1,144 @@
+Pre-script Info
+PID: 15564
+: 
+: BEGINNING TEST SCRIPT - MAX 150 POINTS (10 more points for comments)
+: 
+: 
+: --------------------
+: ls (10 points for returning dir contents)
+: junk
+mytestresults
+p3testscript
+sm
+smallsh
+smallsh.c
+smallsh_sample.c
+: 
+: 
+: --------------------
+: ls out junk
+: : 
+: 
+: --------------------
+: cat junk (20 points for correctly returning contents of junk)
+: junk
+mytestresults
+p3testscript
+sm
+smallsh
+smallsh.c
+smallsh_sample.c
+: 
+: 
+: --------------------
+: wc in junk (20 points for returning correct numbers from wc)
+:        7       7      70
+: 
+: 
+: --------------------
+: test -f badfile (10 points for returning error value of 1)
+: terminated by signal 256
+: exit value 1
+: 
+: 
+: --------------------
+: wc in badfile (10 points for returning text error)
+: Cannot open badfile
+terminated by signal 256
+: 
+: 
+: --------------------
+: badfile (10 points for returning text error)
+: badfile command not recognized
+: 
+: 
+: --------------------
+: sleep 100 background (10 points for returning process ID of sleeper)
+: background pid is 15607
+: 
+: 
+: --------------------
+: pkill -signal SIGTERM sleep (10 points for pid of killed process, 10 points for signal)
+: (Ignore message about Operation Not Permitted)
+: Background Process with ID 15607 complete: Termination Signal 15
+: 
+: 
+: --------------------
+: sleep 1 background (10 pts for pid of bg ps when done, 10 for exit value)
+: background pid is 15618
+: Background Process with ID 15618 complete: Exit Value: 0.
+: 
+: 
+: --------------------
+: pwd
+: /Users/vijaykumar/desktop/CS_344/program3
+: 
+: 
+: --------------------
+: cd 
+: : 
+: 
+: --------------------
+: pwd (10 points for being in the HOME dir)
+: /Users/vijaykumar
+: 
+: 
+: --------------------
+: mkdir testdir15564
+: : 
+: 
+: --------------------
+: cd testdir15564
+: : 
+: 
+: --------------------
+: pwd (10 points for being in the newly created dir)
+: /Users/vijaykumar/testdir15564
+: Exiting all processes.
+: 
+: 
+: --------------------
+: sleep 100 background (10 points for returning process ID of sleeper)
+: background pid is 15652
+: 
+: 
+: --------------------
+: pkill -signal SIGTERM sleep (10 points for pid of killed process, 10 points for signal)
+: (Ignore message about Operation Not Permitted)
+: Background Process with ID 15652 complete: Termination Signal 15
+: 
+: 
+: --------------------
+: sleep 1 background (10 pts for pid of bg ps when done, 10 for exit value)
+: background pid is 15663
+: Background Process with ID 15663 complete: Exit Value: 0.
+: 
+: 
+: --------------------
+: pwd
+: /Users/vijaykumar/desktop/CS_344/program3
+: 
+: 
+: --------------------
+: cd 
+: : 
+: 
+: --------------------
+: pwd (10 points for being in the HOME dir)
+: /Users/vijaykumar
+: 
+: 
+: --------------------
+: mkdir testdir15564
+: mkdir: testdir15564: File exists
+terminated by signal 256
+: 
+: 
+: --------------------
+: cd testdir15564
+: : 
+: 
+: --------------------
+: pwd (10 points for being in the newly created dir)
+: /Users/vijaykumar/testdir15564
+: Exiting all processes.

@@ -1,0 +1,210 @@
+#! /bin/bash
+
+
+#create needed variables
+sum=0
+addnum=1
+count=0
+average=0i
+median=0
+actmedian=0
+uppermedian=0
+
+#delete files if unexpected program failure
+trap "rm -f "newline1$$.txt"; rm -f "sortedline1$$.txt"; rm -f "newline$$.txt"; rm -f "sortedline$$.txt"; rm -f "medianrow$$.txt"; rm -f "averagerow$$.txt", rm -f "datafile$$"; exit 1" INT HUP TERM 
+
+#create file for input
+mydatafile="datafile$$"
+
+if [ "$#" -eq 1 ]; then
+	cat > "$mydatafile"	
+elif [ "$#" -eq 2 ]; then
+        mydatafile=$2
+fi
+
+#ensure number of arguments is correct
+if [ "$#" -ne 2  ] && [ "$#" -ne 1 ]; then
+	echo "Usage: stats {-rows|-cols} [file]" 1>&2
+	exit 1
+fi
+
+#ensure file from argument opens properly
+if [[ ! -f $mydatafile ]]; then
+	echo  "stats: cannot read $2" 1>&2
+	exit 1
+fi
+
+#ensure the file has the proper permissions
+if [[ ! -r $mydatafile ]]; then
+	echo "stats: cannot read $2" 1>&2
+	exit 1
+fi
+
+#ensure the file is not empty
+if [[ ! -s $mydatafile ]]; then
+	echo "$mydatafile is empty. Exiting process." 1>&2
+	exit 1
+fi
+
+
+#if agrument is for a row execute this if statement
+if [[ $1 == -r* ]]
+then
+	echo -e 'Average\tMedian'
+	
+	#this block reads in each line of the input file
+	#each line is summed and then the average and median
+	#is found
+	
+	while read line
+	do
+	
+		#sum all the numbers in the line
+		for num in $line
+			do 
+				sum=$(expr "$sum" + "$num") #accumulating the sum
+				count=$(expr "$count" + 1)  #incrementing count var for average use	
+				echo "$num" >> newline1$$.txt #placing number in file	
+			done
+		
+		#sort the row 
+		sort -n newline1$$.txt > sortedline1$$.txt
+			
+		#find average and median
+		round_help=$(expr $count / 2) #this variable allows us to round to nearest int
+		sum=$(expr $sum + $round_help)
+		average=$(expr $sum / $count)
+		
+		median=$(expr $count / 2)
+		midpt=$(expr $count % 2) #if mdpt is ==0 there are even number of elements 
+
+		#if there are an even number of elements per row 
+		#we need to find the median by using the larger of the two middle elements
+		if [ $midpt == 0 ]
+		then
+			# assign the lower of the two middle elements to var
+
+			#this line grabs the nth (defined by median) element in the file
+			#and quits the sed command immediately followig
+			actmedian=$(sed -n "${median}{p;q;}" sortedline1$$.txt)
+			median=$(expr "$median" + 1)
+			# assign the upper of the two middle elements to var
+			uppermedian=$(sed -n "${median}{p;q;}" sortedline1$$.txt)
+			#ensure actual median variable is the greater of the two
+			if [[ "$uppermedian" -gt "$actmedian" ]]
+			then
+				actmedian=$uppermedian
+			fi
+		else
+		#if there's an odd number of elements per row
+
+			median=$(expr "$median" + 1) #add one to median to find middle element
+			
+			#this line grabs the nth (defined by median) element in the file 
+			#and quits the sed command immediately following
+			actmedian=$(sed -n "${median}{p;q;}" sortedline1$$.txt) 
+		fi
+
+		#print the average and median and truncate files for reuse
+		echo -e ''$average'\t'$actmedian''				
+		truncate -s 0 sortedline1$$.txt
+		truncate -s 0 newline1$$.txt
+		#reset variables for reuse
+		count=0
+		sum=0
+	  
+	done < $mydatafile
+	
+	#remove temp files
+	rm -f "newline1$$.txt"
+	rm -f "sortedline1$$.txt"
+	rm -f "datafile$$"
+
+#if columns option was input
+elif [[ $1 == -c* ]]
+then
+	#count the number of columns (elements per row)
+	numcount=0
+	numcount=$(awk 'BEGIN{FS="\t"}END{print NF}' $mydatafile)
+	
+	#loop through columns in while loop	
+	linenum=1
+	while [ $linenum -le $numcount ]
+	do
+				
+		#grab same element from each row
+		cut -f $linenum $mydatafile >> newline$$.txt
+		#sort elements 
+		sort -n newline$$.txt > sortedline$$.txt
+		
+		#perform summing of sorted temp file
+		while read line
+		do
+			for num in $line
+				do 
+					sum=$(expr "$sum" + "$num") #accumulate sum
+					count=$(expr "$count" + 1) #increment counter for average use
+				done
+		done < sortedline$$.txt
+		
+		#find median and average
+		#round_help variable allows average to round to nearest integer
+		round_help=$(expr $count / 2)
+		sum=$(expr $sum + $round_help)	
+		average=$(expr $sum / $count)
+		echo -e -n "$average\t" >> averagerow$$.txt		
+		median=$(expr $count / 2)
+	
+		
+		midpt=$(expr $count % 2)
+
+		#if number of elements is even
+		if [ "$midpt" == 0 ]
+		then
+		
+			actmedian=$(sed -n "${median}{p;q;}" sortedline$$.txt)
+			median=$(expr "$median" + 1)
+			uppermedian=$(sed -n "${median}{p;q;}" sortedline$$.txt)
+			if [[ "$uppermedian" -gt "$actmedian" ]]
+			then
+				actmedian=$uppermedian
+			fi
+		else
+			median=$(expr "$median" + 1)
+			actmedian=$(sed -n "${median}{p;q;}" sortedline$$.txt)
+		fi
+
+		#send result to new file
+		echo -e -n "$actmedian\t" >> medianrow$$.txt		
+		#delete temp files
+		rm -f "sortedline$$.txt"
+		rm -f "newline$$.txt"
+		#increment linenum(counter) and reset other variables for reuse
+		linenum=$(expr "$linenum" + 1)
+		sum=0
+		count=0
+		median=0
+		average=0
+	done
+
+	#print results
+	echo -e "\n" >> averagerow$$.txt
+	echo -e "\n" >> medianrow$$.txt
+	echo -e "Averages:"
+	cat averagerow$$.txt
+	echo "Medians:"
+	cat medianrow$$.txt
+	#clean up -- delete temp files
+	rm -f "averagerow$$.txt"
+	rm -f "medianrow$$.txt"
+	rm -f "datafile$$"
+
+#if number of arguments are invalid
+else
+	echo "Invalid arguments." 1>&2
+	exit 1
+fi
+
+#exit program
+exit 0
+	
