@@ -1,0 +1,11 @@
+README
+
+To run without simple unit test enter the following code at the command line:
+
+python rsa1.py <user input>
+
+To run with simple test unit enter the following code at the command line:
+
+python unit_test.py
+
+

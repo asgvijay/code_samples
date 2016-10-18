@@ -1,0 +1,80 @@
+{
+    "message": {
+        "type": "YiNvkWljZVPN", 
+        "description": "original string provided as the input to your app"
+    }, 
+    "signature": {
+        "type": "IapK3IftJbdj4X4e2xcL/klzStaRTpuOhEzCqlXGyLsLDxd9uFsqb2N+mOhVr46ydw94ErNk2zCn\nNRNI2hLa5SvcYvZeJDMgtS/9zo25OHIovyJfOJY35NfzbfwtKmLopBZs4g8xUKNUEcNjmNccuOWF\n1NflmWToy+QNX5uvRAY=", 
+        "description": "RFC 4648 compliant Base64 encoded cryptographic signature of the input, calculated using the private key and the SHA256 digest of the input"
+    }, 
+    "pubkey": {
+        "type": "-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3v+eo8fcqu6JBT5dvOmNSVxtM\n0z1qqlDTCabiffsQ+H0piGF/uhbzrwEBYqjb+a2R9YxEGvzMaiXS+AThYNyRh6Kq\nTGMbB8r4EpymB5NNi+1nTbrxC8/KTQDjkmQjaoXWmPNlIXkmu4qBNGNe+77Esd9k\n1kLKs3JsxKIjrxeDXQIDAQAB\n-----END PUBLIC KEY-----", 
+        "description": "Base64 encoded string (PEM format) of the public key generated from the private key used to create the digital signature"
+    }
+}
+******************************************************
+
+{
+    "message": {
+        "type": "cQhTcOzjmPCDmrFRoBEVInClunFXpudsxURqVayQrtLPNKfRdzVZwpOJfeeuQhlgcyUTBklyyQPRBzvwFAWxAuLCxmyXopptONjCniQQVJQSCnziDIMfHlkUhaKhmBzvIyVdoBIueWiieeIVBdEpomPqDekOXZSwyrdcckWlHCPPBduxHwQvFRfQ", 
+        "description": "original string provided as the input to your app"
+    }, 
+    "signature": {
+        "type": "ogkgxD0z2nYM/fMmh4VZQGMuYcl1ivwMtNi62vOWL34vXaxmNLHyV4DD9OwhdCmq0KhUHBBc4zrZ\nVGivAIiSYPFQmx3ZaS443bLsQvTAC45NDewxrYxy3nO7D8+AKvUBz5bhd3PX5WNX/gRcHN4GEU1P\ntCgJGPtcpqx/lbG2yH8=", 
+        "description": "RFC 4648 compliant Base64 encoded cryptographic signature of the input, calculated using the private key and the SHA256 digest of the input"
+    }, 
+    "pubkey": {
+        "type": "-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDB59ENt6oIvxy9GxIiIKFyRAez\n5W9a4t3+iqIvS7+l4BBYQXji1CUnRV7wwtWAJmpjTyxB2KWolqZQ/ZSKqeUZJjSw\n5WdIvexcPOND/Q1TjyV1pg3y7KYHAjnAcT+rtsF4iPv5q9a8NEFvzAV1CwU+IQts\no828W7rMkR3H9H4gLwIDAQAB\n-----END PUBLIC KEY-----", 
+        "description": "Base64 encoded string (PEM format) of the public key generated from the private key used to create the digital signature"
+    }
+}
+******************************************************
+
+{
+    "message": {
+        "type": "ThswYOifSpxpoXLxeRJDCyQTuTHAUPZyKMDeJtPaATphMxBtgrhouQyJbbidNDAUVOJ", 
+        "description": "original string provided as the input to your app"
+    }, 
+    "signature": {
+        "type": "d3Fz5OO/m8VT2P9BQC8JwC4b7VxxWMZkhS+vrDkTXI1U2HULUTjeHneiDnDrZYwDuWjFuRwLVzRn\nH3t6oHlsf+J3uE5XYTdtjFpIQA6t/ut5vFr+Lu8cxLbsZt8iz2Jhr+E2b3TAUgCeAMMOM1ZadKm0\nIWZdPPF1GqUxbljagUU=", 
+        "description": "RFC 4648 compliant Base64 encoded cryptographic signature of the input, calculated using the private key and the SHA256 digest of the input"
+    }, 
+    "pubkey": {
+        "type": "-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCguUcx7hvFD3YeDfy2Nl1MTLUD\n/jEc3rRRngP6lYJ+/kXcXYvOiN3mLn9LsHncVPl57abwjw+6N6ab1+optQdpfEV3\nGICOrfGF/4D2DxBRkUUhX90aZhCteLESPMcL4x9AaNMwYB3K3GP9Yd3qfBOL5vvA\nPkcl9IqfO7JPlbtu2QIDAQAB\n-----END PUBLIC KEY-----", 
+        "description": "Base64 encoded string (PEM format) of the public key generated from the private key used to create the digital signature"
+    }
+}
+******************************************************
+
+{
+    "message": {
+        "type": "MPWgMBQlhbvTndIebQZGAeIqooUsHmBPOcgGhBYhsTgXrqINwkuZTmZaoDExLcpLZumhYYdybfKbOQvzJkYKMLDjSfTvOhiRawiLsrNMQIZwloxeBgCiVZWWBCLlweMExegNBxXTTxPsTaPYDSayExxrJwQGklCMvKoAvdAqzqFXgzvgzCKpOQVHNFZRKUWPCIRZStGmrihoRbbQBhMPVsmCXsEMOZSodLrzWZLUzGrOQmKqOKdiK", 
+        "description": "original string provided as the input to your app"
+    }, 
+    "signature": {
+        "type": "NGMcYuUnolxWEF9rWax8cQ+ITVs5NqQdv8Ou0OcQt6Jym73x2kLXxcqqrnx0Oqq/G8z9uQGyuPZ/\nW6dUF7W7kaj5ZUMRPWwBfbTXPzeqO9p7P/hSE+rtrP9SXyMTM3x3/WN302qJPZTeo4RCevvTSKqc\ncLuyvM9Of9LzLngSloU=", 
+        "description": "RFC 4648 compliant Base64 encoded cryptographic signature of the input, calculated using the private key and the SHA256 digest of the input"
+    }, 
+    "pubkey": {
+        "type": "-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCNF/EKJHhnT8GyXl2ke8bzxncC\n6XU0vXvGsusYT9JkCznzx29+6011wNSGYnHnIr9ghw07/rXs7xyaLegaeCfm04tp\n3sxHSr57IdWzvoT7qoqy00zm0gH++6I0Ik7jEPAChwtEDhS8KfdRLLsMeqFoSSb9\n0+5tkxQIVT7FeRxc5QIDAQAB\n-----END PUBLIC KEY-----", 
+        "description": "Base64 encoded string (PEM format) of the public key generated from the private key used to create the digital signature"
+    }
+}
+******************************************************
+
+{
+    "message": {
+        "type": "ltDBbuEFQzNdFkaUYdniBIoKyWxdoQLWgntZOuswxcqoIoKfbpLoEsqG", 
+        "description": "original string provided as the input to your app"
+    }, 
+    "signature": {
+        "type": "m6h5b7KFHkraVl/CHuylbtiJU1dFJMJiKmx2oNCtRzFMXIkOTbYH2C50TG2sxkEh5pWajaoGE64d\nKG/lVbdN/A8lZdY+Dx4ae5eGE/lv2G2vJTgglPG+0YfIbgVySitBGmpGV35LQAnTawl0tCeoguxg\nNDD9RU47do7SUgmfWdw=", 
+        "description": "RFC 4648 compliant Base64 encoded cryptographic signature of the input, calculated using the private key and the SHA256 digest of the input"
+    }, 
+    "pubkey": {
+        "type": "-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWDb0NRS2BM4C9lZYvXjd6EyNS\n4LVh/P4xXSIZEJ0iBLbim26I6nDN3OyA03TrAESJnsQuRIe86f2nS0JnOay20+KM\nc+FsLs4ObDp1e2yb8dPS5Rwj9yN/aIQRi+JPIfMutSKwpUeB3bKTPFmSCBKChMEz\nYCexg+uzkiaa3IM6RwIDAQAB\n-----END PUBLIC KEY-----", 
+        "description": "Base64 encoded string (PEM format) of the public key generated from the private key used to create the digital signature"
+    }
+}
+******************************************************
+
