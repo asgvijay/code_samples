@@ -1,0 +1,182 @@
+Array number: 1
+------------------------------
+total sum (linear) = 296
+start = 17
+end = 35
+Linear time function took 0 full seconds to run and 1294 nano seconds.
+Max sub-array = |50|66|-22|-4|-55|91|100|-102|9|10|19|-10|10|11|11|-10|-18|50|90|
+
+total sum (enum) = 296
+start = 17
+end = 35
+Enumerated function took 0 full seconds to run and 42391 nano seconds.
+Max sub-array = |50|66|-22|-4|-55|91|100|-102|9|10|19|-10|10|11|11|-10|-18|50|90|
+
+total sum (recursive) = 296
+start = 17
+end = 35
+Divide and Conquer function took 0 full seconds to run and 6385 nano seconds.
+Max sub-array = |50|66|-22|-4|-55|91|100|-102|9|10|19|-10|10|11|11|-10|-18|50|90|
+
+total sum (iterative) = 296
+start = 17
+end = 35
+Iterative function took 0 full seconds to run and 3459 nano seconds.
+Max sub-array = |50|66|-22|-4|-55|91|100|-102|9|10|19|-10|10|11|11|-10|-18|50|90|
+
+Array number: 2
+------------------------------
+total sum (linear) = 199
+start = 17
+end = 21
+Linear time function took 0 full seconds to run and 657 nano seconds.
+Max sub-array = |1|9|10|92|87|
+
+total sum (enum) = 199
+start = 17
+end = 21
+Enumerated function took 0 full seconds to run and 11385 nano seconds.
+Max sub-array = |1|9|10|92|87|
+
+total sum (recursive) = 199
+start = 17
+end = 21
+Divide and Conquer function took 0 full seconds to run and 2978 nano seconds.
+Max sub-array = |1|9|10|92|87|
+
+total sum (iterative) = 199
+start = 17
+end = 21
+Iterative function took 0 full seconds to run and 1709 nano seconds.
+Max sub-array = |1|9|10|92|87|
+
+Array number: 3
+------------------------------
+total sum (linear) = 992
+start = 0
+end = 18
+Linear time function took 0 full seconds to run and 523 nano seconds.
+Max sub-array = |565|78|33|9|10|84|71|-4|-22|-55|-10|76|-9|-9|-11|76|89|11|10|
+
+total sum (enum) = 992
+start = 0
+end = 18
+Enumerated function took 0 full seconds to run and 10090 nano seconds.
+Max sub-array = |565|78|33|9|10|84|71|-4|-22|-55|-10|76|-9|-9|-11|76|89|11|10|
+
+total sum (recursive) = 992
+start = 0
+end = 18
+Divide and Conquer function took 0 full seconds to run and 3029 nano seconds.
+Max sub-array = |565|78|33|9|10|84|71|-4|-22|-55|-10|76|-9|-9|-11|76|89|11|10|
+
+total sum (iterative) = 992
+start = 0
+end = 18
+Iterative function took 0 full seconds to run and 1532 nano seconds.
+Max sub-array = |565|78|33|9|10|84|71|-4|-22|-55|-10|76|-9|-9|-11|76|89|11|10|
+
+Array number: 4
+------------------------------
+total sum (linear) = 92
+start = 0
+end = 30
+Linear time function took 0 full seconds to run and 594 nano seconds.
+Max sub-array = |2|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|
+
+total sum (enum) = 92
+start = 0
+end = 30
+Enumerated function took 0 full seconds to run and 28136 nano seconds.
+Max sub-array = |2|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|
+
+total sum (recursive) = 92
+start = 0
+end = 30
+Divide and Conquer function took 0 full seconds to run and 4247 nano seconds.
+Max sub-array = |2|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|
+
+total sum (iterative) = 92
+start = 0
+end = 30
+Iterative function took 0 full seconds to run and 2681 nano seconds.
+Max sub-array = |2|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3|
+
+Array number: 5
+------------------------------
+total sum (linear) = 2
+start = 0
+end = 0
+Linear time function took 0 full seconds to run and 339 nano seconds.
+Max sub-array = |2|
+
+total sum (enum) = 2
+start = 0
+end = 0
+Enumerated function took 0 full seconds to run and 283 nano seconds.
+Max sub-array = |2|
+
+total sum (recursive) = 2
+start = 0
+end = 0
+Divide and Conquer function took 0 full seconds to run and 260 nano seconds.
+Max sub-array = |2|
+
+total sum (iterative) = 2
+start = 0
+end = 0
+Iterative function took 0 full seconds to run and 280 nano seconds.
+Max sub-array = |2|
+
+Array number: 6
+------------------------------
+total sum (linear) = 410
+start = 8
+end = 14
+Linear time function took 0 full seconds to run and 583 nano seconds.
+Max sub-array = |100|100|100|100|-100|100|10|
+
+total sum (enum) = 410
+start = 8
+end = 14
+Enumerated function took 0 full seconds to run and 10810 nano seconds.
+Max sub-array = |100|100|100|100|-100|100|10|
+
+total sum (recursive) = 410
+start = 8
+end = 14
+Divide and Conquer function took 0 full seconds to run and 2235 nano seconds.
+Max sub-array = |100|100|100|100|-100|100|10|
+
+total sum (iterative) = 410
+start = 8
+end = 14
+Iterative function took 0 full seconds to run and 1249 nano seconds.
+Max sub-array = |100|100|100|100|-100|100|10|
+
+Array number: 7
+------------------------------
+total sum (linear) = 258
+start = 24
+end = 27
+Linear time function took 0 full seconds to run and 729 nano seconds.
+Max sub-array = |10|92|57|99|
+
+total sum (enum) = 258
+start = 24
+end = 27
+Enumerated function took 0 full seconds to run and 24586 nano seconds.
+Max sub-array = |10|92|57|99|
+
+total sum (recursive) = 258
+start = 24
+end = 27
+Divide and Conquer function took 0 full seconds to run and 4420 nano seconds.
+Max sub-array = |10|92|57|99|
+
+total sum (iterative) = 258
+start = 24
+end = 27
+Iterative function took 0 full seconds to run and 2487 nano seconds.
+Max sub-array = |10|92|57|99|
+
