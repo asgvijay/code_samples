@@ -1,0 +1,3 @@
+This simple adventure game, written in C, was an assignment in string parsing, dynamic naming conventions, output formatting.
+Please excuse what seems to be a lack of modularization, as the assignment required one singular .c file for submission. 
+At this stage, modularization would allow for better readability.
