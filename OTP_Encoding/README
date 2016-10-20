@@ -1,0 +1,3 @@
+This OTP Encoding program is a One Time Pad encoding system that allows a client and server to communicate via sockets.
+The client encodes the input string and the server decodes and returns.
+This assignment was to test our ability at creating client/server communications via sockets.
