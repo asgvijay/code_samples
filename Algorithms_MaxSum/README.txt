@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 Edwin Grove, Michael Dambacher and Vijay Kumar
 
+=======
+Edwin Grove and Michael Dambacher
+
+>>>>>>> 7eb151481c875f0f6e1ce2bf3b83fd195557ecf1
 To compile the program type:
 g++ -std=c++0x -lrt main.cpp -o alg
 

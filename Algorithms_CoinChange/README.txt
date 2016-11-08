@@ -1,3 +1,5 @@
+Project completed in group setting with Edwin Grove and Michael Dambacher
+
 To compile the program type:
 g++ -std=c++0x -lrt main.cpp -o coins
 
