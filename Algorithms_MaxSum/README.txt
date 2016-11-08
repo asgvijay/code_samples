@@ -1,3 +1,5 @@
+Edwin Grove, Michael Dambacher and Vijay Kumar
+
 To compile the program type:
 g++ -std=c++0x -lrt main.cpp -o alg
 
