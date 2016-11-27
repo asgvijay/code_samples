@@ -1,0 +1,19 @@
+Quiz 2:
+
+
+	A host starts a TCP transmission with an EstimatedRTT of 11.5ms (from the “handshake”). The host then sends 3 packets and records the RTT for each:
+SampleRTT1 = 13.2 ms
+SampleRTT2 = 17.6 ms
+SampleRTT3 = 37.7 ms
+
+
+	(NOTE: SampleRTT1 is the “oldest”; SampleRTT3 is the most recent.)
+Using an exponential weighted moving average with a weight of 0.4 given to the most recent sample, what is the EstimatedRTT for packet #4? Give answer in miliseconds, rounded to one decimal place, without units, so for an answer of 0.01146 seconds, you would enter "11.5" without the quotes.
+
+	EstimateRTT(n) = (1- alpha) * EstimatedRTT(n-1) + alpha * SampleRTT
+
+In this case alpha = 0.4
+
+EstimateRTT(n=2) = (1- .4) * 11.5 + 0.4 * 13.2 = 12.18
+EstimateRTT(n=3) = ((1- .4) * 12.18) + (0.4 * 17.6)= 14.348
+EstimatedRTT(n=4) = ((1- .4) * 14.348) + (0.4 * 37.7) = 23.6888
