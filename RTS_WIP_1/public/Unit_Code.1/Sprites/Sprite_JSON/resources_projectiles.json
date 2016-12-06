@@ -1,0 +1,120 @@
+{"frames": [
+
+{
+	"filename": "Clan1_Projectile1.png",
+	"frame": {"x":213,"y":576,"w":82,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":82,"h":80},
+	"sourceSize": {"w":82,"h":80},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan1_Projectile2.png",
+	"frame": {"x":297,"y":576,"w":82,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":82,"h":80},
+	"sourceSize": {"w":82,"h":80},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan1_Projectile3.png",
+	"frame": {"x":376,"y":425,"w":82,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":82,"h":80},
+	"sourceSize": {"w":82,"h":80},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan1_resource_full.png",
+	"frame": {"x":1,"y":1,"w":248,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":248,"h":196},
+	"sourceSize": {"w":248,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan1_resource_full1.png",
+	"frame": {"x":1,"y":199,"w":210,"h":215},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":215},
+	"sourceSize": {"w":210,"h":215},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan1_resource_low.png",
+	"frame": {"x":251,"y":1,"w":218,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":218,"h":200},
+	"sourceSize": {"w":218,"h":200},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_Projectile1.png",
+	"frame": {"x":424,"y":203,"w":56,"h":220},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":56,"h":220},
+	"sourceSize": {"w":56,"h":220},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_Projectile2.png",
+	"frame": {"x":471,"y":1,"w":8,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":62},
+	"sourceSize": {"w":8,"h":62},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_Projectile3.png",
+	"frame": {"x":460,"y":425,"w":12,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":101},
+	"sourceSize": {"w":12,"h":101},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_resource_full.png",
+	"frame": {"x":213,"y":203,"w":209,"h":204},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":209,"h":204},
+	"sourceSize": {"w":209,"h":204},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_resource_full1.png",
+	"frame": {"x":1,"y":416,"w":210,"h":215},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":215},
+	"sourceSize": {"w":210,"h":215},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_resource_low.png",
+	"frame": {"x":213,"y":409,"w":161,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":165},
+	"sourceSize": {"w":161,"h":165},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "resources_projectiles.png",
+	"format": "RGBA8888",
+	"size": {"w":481,"h":657},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6a1e1a0124cfbe77e8121cf3803efd9f:ff82e46e27080d1250fe291917f02c59:f24fe009bf0b641ec1cc3e699c878e6b$"
+}
+}

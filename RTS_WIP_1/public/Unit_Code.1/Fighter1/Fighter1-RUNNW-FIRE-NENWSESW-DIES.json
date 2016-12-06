@@ -1,0 +1,327 @@
+{"frames": [
+
+{
+	"filename": "Figther1_Dies_01.png",
+	"frame": {"x":557,"y":1092,"w":226,"h":302},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":226,"h":302},
+	"sourceSize": {"w":226,"h":302},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_Dies_02.png",
+	"frame": {"x":939,"y":1035,"w":203,"h":333},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":203,"h":333},
+	"sourceSize": {"w":203,"h":333},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_Dies_03.png",
+	"frame": {"x":1661,"y":1,"w":196,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":356},
+	"sourceSize": {"w":196,"h":356},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_Dies_04.png",
+	"frame": {"x":1144,"y":1021,"w":231,"h":325},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":325},
+	"sourceSize": {"w":231,"h":325},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_Dies_05.png",
+	"frame": {"x":1,"y":1099,"w":295,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":230},
+	"sourceSize": {"w":295,"h":230},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireNE_01.png",
+	"frame": {"x":1,"y":1,"w":262,"h":355},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":262,"h":355},
+	"sourceSize": {"w":262,"h":355},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireNE_02.png",
+	"frame": {"x":1,"y":731,"w":219,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":366},
+	"sourceSize": {"w":219,"h":366},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireNE_03.png",
+	"frame": {"x":1,"y":358,"w":221,"h":371},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":371},
+	"sourceSize": {"w":221,"h":371},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireNE_04.png",
+	"frame": {"x":1,"y":731,"w":219,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":366},
+	"sourceSize": {"w":219,"h":366},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireNE_05.png",
+	"frame": {"x":1,"y":1,"w":262,"h":355},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":262,"h":355},
+	"sourceSize": {"w":262,"h":355},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireNW_01.png",
+	"frame": {"x":224,"y":358,"w":195,"h":389},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":389},
+	"sourceSize": {"w":195,"h":389},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireNW_02.png",
+	"frame": {"x":421,"y":355,"w":199,"h":381},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":199,"h":381},
+	"sourceSize": {"w":199,"h":381},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireSE_01.png",
+	"frame": {"x":676,"y":684,"w":211,"h":353},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":211,"h":353},
+	"sourceSize": {"w":211,"h":353},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireSE_02.png",
+	"frame": {"x":889,"y":680,"w":209,"h":353},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":209,"h":353},
+	"sourceSize": {"w":209,"h":353},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireSE_03.png",
+	"frame": {"x":1333,"y":658,"w":206,"h":353},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":206,"h":353},
+	"sourceSize": {"w":206,"h":353},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireSW_01.png",
+	"frame": {"x":785,"y":1039,"w":152,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":347},
+	"sourceSize": {"w":152,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireSW_02.png",
+	"frame": {"x":455,"y":738,"w":219,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":352},
+	"sourceSize": {"w":219,"h":352},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireSW_03.png",
+	"frame": {"x":265,"y":1,"w":221,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":352},
+	"sourceSize": {"w":221,"h":352},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_FireSW_04.png",
+	"frame": {"x":455,"y":738,"w":219,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":352},
+	"sourceSize": {"w":219,"h":352},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_01.png",
+	"frame": {"x":724,"y":1,"w":233,"h":339},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":233,"h":339},
+	"sourceSize": {"w":233,"h":339},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_02.png",
+	"frame": {"x":488,"y":1,"w":234,"h":339},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":234,"h":339},
+	"sourceSize": {"w":234,"h":339},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_03.png",
+	"frame": {"x":959,"y":1,"w":233,"h":340},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":233,"h":340},
+	"sourceSize": {"w":233,"h":340},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_04.png",
+	"frame": {"x":1194,"y":1,"w":232,"h":341},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":341},
+	"sourceSize": {"w":232,"h":341},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_05.png",
+	"frame": {"x":1428,"y":1,"w":231,"h":342},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":342},
+	"sourceSize": {"w":231,"h":342},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_06.png",
+	"frame": {"x":222,"y":749,"w":231,"h":341},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":341},
+	"sourceSize": {"w":231,"h":341},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_07.png",
+	"frame": {"x":622,"y":342,"w":231,"h":340},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":340},
+	"sourceSize": {"w":231,"h":340},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_08.png",
+	"frame": {"x":1100,"y":679,"w":231,"h":340},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":340},
+	"sourceSize": {"w":231,"h":340},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_09.png",
+	"frame": {"x":855,"y":343,"w":233,"h":335},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":233,"h":335},
+	"sourceSize": {"w":233,"h":335},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_10.png",
+	"frame": {"x":1541,"y":678,"w":233,"h":326},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":233,"h":326},
+	"sourceSize": {"w":233,"h":326},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_11.png",
+	"frame": {"x":1377,"y":1013,"w":235,"h":316},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":316},
+	"sourceSize": {"w":235,"h":316},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_12.png",
+	"frame": {"x":1581,"y":359,"w":236,"h":317},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":236,"h":317},
+	"sourceSize": {"w":236,"h":317},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_13.png",
+	"frame": {"x":1326,"y":345,"w":253,"h":311},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":253,"h":311},
+	"sourceSize": {"w":253,"h":311},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_14.png",
+	"frame": {"x":298,"y":1092,"w":257,"h":308},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":257,"h":308},
+	"sourceSize": {"w":257,"h":308},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_15.png",
+	"frame": {"x":1614,"y":1006,"w":233,"h":310},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":233,"h":310},
+	"sourceSize": {"w":233,"h":310},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Figther1_RunNW_16.png",
+	"frame": {"x":1090,"y":344,"w":234,"h":333},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":234,"h":333},
+	"sourceSize": {"w":234,"h":333},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Fighter1-RUNNW-FIRE-NENWSESW-DIES.png",
+	"format": "RGBA8888",
+	"size": {"w":1858,"h":1401},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f4e757a70eb3017a250ba68bab27e417:948fd68804b544d98da6549f84840f1f:741958dbba3ccf4aebdce518e775577d$"
+}
+}

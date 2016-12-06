@@ -1,0 +1,138 @@
+{"frames": [
+
+{
+	"filename": "Clan1_Collector.png",
+	"frame": {"x":305,"y":421,"w":180,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":96},
+	"sourceSize": {"w":180,"h":96},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan1_Fighter1.png",
+	"frame": {"x":183,"y":540,"w":116,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":116,"h":140},
+	"sourceSize": {"w":116,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan1_Fighter2.png",
+	"frame": {"x":1,"y":696,"w":160,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":124},
+	"sourceSize": {"w":160,"h":124},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan1_Fighter3.png",
+	"frame": {"x":305,"y":519,"w":160,"h":204},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":204},
+	"sourceSize": {"w":160,"h":204},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan1_Vehicle1.png",
+	"frame": {"x":307,"y":1,"w":204,"h":222},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":204,"h":222},
+	"sourceSize": {"w":204,"h":222},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan1_Vehicle2.png",
+	"frame": {"x":1,"y":416,"w":180,"h":278},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":278},
+	"sourceSize": {"w":180,"h":278},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan1_Vehicle3.png",
+	"frame": {"x":305,"y":725,"w":144,"h":137},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":144,"h":137},
+	"sourceSize": {"w":144,"h":137},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_Collector.png",
+	"frame": {"x":203,"y":305,"w":86,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":51},
+	"sourceSize": {"w":86,"h":51},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_Fighter1.png",
+	"frame": {"x":163,"y":696,"w":140,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":88},
+	"sourceSize": {"w":140,"h":88},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_Fighter2.png",
+	"frame": {"x":1,"y":305,"w":200,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":109},
+	"sourceSize": {"w":200,"h":109},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_Fighter3.png",
+	"frame": {"x":183,"y":416,"w":120,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":122},
+	"sourceSize": {"w":120,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_Vehicle1.png",
+	"frame": {"x":163,"y":786,"w":139,"h":89},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":139,"h":89},
+	"sourceSize": {"w":139,"h":89},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_Vehicle2.png",
+	"frame": {"x":1,"y":1,"w":304,"h":302},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":304,"h":302},
+	"sourceSize": {"w":304,"h":302},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Clan2_Vehicle3.png",
+	"frame": {"x":307,"y":225,"w":202,"h":194},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":202,"h":194},
+	"sourceSize": {"w":202,"h":194},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ships.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":876},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4a0d2ce88fad4e9d8a8bbe66ae547611:cf17c9fb0ebb9280e5eefb9296298c78:78154fe33c5dfc8c7f67f0a3677ac0ac$"
+}
+}

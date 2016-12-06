@@ -1,0 +1,134 @@
+<!-- http://stackoverflow.com/questions/16919601/html5-canvas-camera-viewport-how-to-actally-do-it -->
+
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<style>
+    body{ background-color: grey; }
+    canvas{border:1px solid red;}
+</style>
+</head>
+
+<body>
+	  <input type="hidden" id="difficulty" value="easy"/>
+	
+    <!-- <canvas id="game" width=325 height=250></canvas><br> -->
+    <canvas id="canvas" width=830 height=500></canvas>
+    <canvas id="menu" width=300 height=300></canvas>
+      <div>
+          <span id="mouse_x"></span>
+          <span id="mouse_y"></span>
+      </div>
+      </div>
+        <button type="button" id="saveButton">Save Game</button>
+        <button type="button" id="quitButton">Quit Game</button>
+      </div>
+    <script id="ships" type="application/json" src="Unit_Code.1/Sprites/ships.json"></script> 
+    <script id="rbp" type="application/json" src="Unit_Code.1/Sprites/rbp.json"></script>
+    <script type="text/javascript" src="js/AIWeightsLoader.js"></script>
+    <script type="text/javascript" src="js/MenuItem.js"></script>    
+    <script type="text/javascript" src="js/SelectRect.js"></script>
+    <script type="text/javascript" src="js/Map.js"></script>
+    <script type="application/javascript" src="js/saveWeights.js"></script>
+    <script type="text/javascript" src="js/Player.js"></script>
+    <script type="text/javascript" src="js/getRbpJson.js"></script>
+    <script type="text/javascript" src="js/getShipsJson.js"></script>
+
+    <script type="text/javascript" src="Unit_Code.1/entity.js"></script>    
+    <script type="text/javascript" src="Unit_Code.1/Anim_FighterClass.js"></script> 
+    <script type="text/javascript" src="Unit_Code.1/Anim_CollectorClass.js"></script> 
+    
+    <script type="text/javascript" src="Unit_Code.1/Tower.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Building.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/resources.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/projectile.js"></script>
+
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Collector.js"></script>    
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Collector.js"></script>    
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Fighter1.js"></script>    
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Fighter2.js"></script> 
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Fighter3.js"></script> 
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Fighter1.js"></script>    
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Fighter2.js"></script> 
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Fighter3.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Vehicle1.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Vehicle2.js"></script>    
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Vehicle3.js"></script> 
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Vehicle1.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Vehicle2.js"></script>    
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Vehicle3.js"></script>  
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Tower.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan1_MissileTower.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Tower.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_MissileTower.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Lab.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Training1.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Training2.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Training3.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Factory1.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Factory2.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Factory3.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Lab.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Training1.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Training2.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Training3.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Factory1.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Factory2.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Factory3.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Fighter1_Proj.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Fighter2_Proj.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Fighter3_Proj.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Vehicle1_Proj.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Vehicle2_Proj.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Vehicle3_Proj.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Fighter1_Proj.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Fighter2_Proj.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Fighter3_Proj.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Vehicle1_Proj.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Vehicle2_Proj.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Vehicle3_Proj.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan1_Tower_Proj.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan1_MissileTower_Proj.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/Clan2_Tower_Proj.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/Clan2_MissileTower_Proj.js"></script>
+    
+    <script type="text/javascript" src="Unit_Code.1/resource1.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/resource2.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/resource3.js"></script>
+    
+    
+    <script type="text/javascript" src="Unit_Code.1/cardinalDirection.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/distanceTo.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/enemyRange.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/newEntityCreate.js"></script>
+    <script type="text/javascript" src="Unit_Code.1/projectilePath.js"></script>
+    
+    
+    <script type="text/javascript" src="js/Projectile.js"></script>
+    <script type="text/javascript" src="js/Building.js"></script>
+	
+	<!-- <script type="text/javascript" src="js/imageLoader.js"></script> -->
+    <script type="text/javascript" src="js/Camera.js"></script>
+    <script type="text/javascript" src="js/aiModule.js"></script>
+    <script type="text/javascript" src="js/GameState.js"></script>
+
+		  
+	
+</body>
+</html>
