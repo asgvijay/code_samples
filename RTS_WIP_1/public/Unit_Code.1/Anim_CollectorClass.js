@@ -3,13 +3,7 @@ class Anim_CollectorClass extends EntityClass{
     constructor(xCoord, yCoord){
 
         super(xCoord, yCoord);
-    // imgMovement was initially used to work with a series of images to use in an animation. We may not need anymore because
-    //imgMovement : 
-    //{
-      //  imgAnimateIndex : 0,
-        //spriteLibLength :0,
-        //direction: ""
-    //},
+ 
     
         this.startTime = 0;
 
@@ -237,21 +231,8 @@ class Anim_CollectorClass extends EntityClass{
                                 this.currentResource = null;
                             }
                             break;
-
-                            //if (this.currentResource.resource_amount <= 0){
-                            //    this.currentResource = null;
-                            //    this.state = 'delivering';
-                            //}
-                            //this.payload += this.payloadLimit;
                         }
-                        //check if carry limit has been reached
-                        //if (this.payload >= this.payloadLimit) {
-                        //    this.payload = this.payloadLimit;
-                        //    this.destPos.x = this.homeBase.x;
-                        //    this.destPos.y = this.homeBase.y;
-                        //    this.state = 'delivering';
-                        //    break;
-                        //}
+               
                     }
                     break;
                 //put in the conditions to transfer to delivering
