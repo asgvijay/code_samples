@@ -12,7 +12,7 @@ class Resume(ndb.Model):
 
     # This class handles the addition of resumes to the datastore
     # It is called when a call to the endpoint .../newres/first_name/last_name
-    # is made
+    # is made.
 class createResume(webapp2.RequestHandler):
     def post(self, *args):
         #if user doesn't accept JSON return error
@@ -38,7 +38,6 @@ class createResume(webapp2.RequestHandler):
             
             # the resume referenced via the keywords does not exist so we are clear to create new entity
             if res_key == None:
-                #print "this is the json from body: ", self.request.body
                 new_res = Resume(first_name = this_first, last_name = this_last, resume = self.request.body)
                 new_res_key = new_res.put()
                 out = {"message":"Resume Added"}
@@ -88,17 +87,16 @@ class getRes(webapp2.RequestHandler):
                 out = json.loads(res_key.resume)
                 self.response.headers["cache-control"]= "max-age=120"
                 self.response.headers.add_header("Access-Control-Allow-Origin", "*")
-                print json.dumps(out, indent=4)
                 self.response.write(json.dumps(out, indent=4))
             
             # the query returned nothing, therefore the resource does not exist
             else:
-                out.append({"message":"Resume does not exist for this person"})
+                out = {"message":"Resume does not exist for this person"}
                 self.response.write(json.dumps(out))
                 
         # both keywords were not present        
         else:
-            out.append({"message":"Must include first and last name in resource request."})
+            out = {"message":"Must include first and last name in resource request."}
             self.response.write(json.dumps(out))
     
 # this variable calls the appropriate handler when a call to the API is made.                      
