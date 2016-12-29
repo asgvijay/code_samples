@@ -1,0 +1,27 @@
+<!doctype hmtl>
+<html>
+<head>
+    <script src = 'resjs.js'></script>
+     <link rel='stylesheet' href ='style.css' type='text/css'></head>
+     </head>
+	<title> Resume Demo Page</title>
+
+</head>
+<body>
+    
+	<form>
+        <fieldset>
+            <legend>Search for a resume</legend>
+        <input type="text" id = "first_name" value="First Name" </input>
+        <input type="text" id = "last_name" value="Last Name" </input>
+        
+        <button type = "submit" id = "submit_button">Get JSON</button>
+        </fieldset>
+    </form>
+    
+    <fieldset>
+    <legend>Raw JSON</legend>
+        <pre><code><div id = "json" style="max-width:500px"></div></code></pre>   
+    </fieldset>
+</body>
+</html>
