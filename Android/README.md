@@ -1,0 +1,3 @@
+This folder holds the Java and XML files making up an Android based mobile project for OSU’s CS 496 class. This mobile application allows users to find a listing of all businesses in a certain zip code. To fulfill RESTful api requirements, the app allows the user to POST, PUT, GET and DELETE businesses within the non-relational database.
+
+The backend for this application is create using the Google App Engine.
